@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="hoge"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+    <Button
+        android:text="upper"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_dark"/>
+</FrameLayout>
