@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- View が押された状態の Drawable -->
+        <item android:state_pressed="true">
+            <inset
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/off"
+                android:insetTop="10dp"
+                android:insetLeft="10dp"/>
+
+
+        </item>
+        <!-- View が通常の状態の Drawable -->
+        <item>
+            <inset
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/on"
+                android:insetTop="10dp"
+                android:insetLeft="10dp"/>
+
+        </item>
+
+</selector>
